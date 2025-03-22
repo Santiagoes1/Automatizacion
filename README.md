@@ -25,11 +25,13 @@ npm install
 
 ## Estructura del Proyecto
 
-- 📂 **cypress/**
-  - 📂 **e2e/**
-    - 📜 **login_test.cy.js** - Prueba de inicio de sesión exitosa  
-    - 📜 **login_fail_test.cy.js** - Prueba de inicio de sesión no exitosa  
-  - 📂 **support/** - Comandos personalizados  
+- 📂 **Cypress/**
+  - 📂 **Prueba_Tecnica/**
+    - 📂 **cypress/**
+      - 📂 **e2e/**
+  - 📜 **login_test.cy.js** - Prueba de inicio de sesión exitosa  
+  - 📜 **login_fail_test.cy.js** - Prueba de inicio de sesión no exitosa  
+       - 📂 **support/** - Comandos personalizados  
   - 📜 **cypress.config.js** - Configuración de Cypress  
 - 📜 **package.json** - Dependencias y scripts  
 - 📜 **package-lock.json** - Archivo de bloqueo de versiones  
